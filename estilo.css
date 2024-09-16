@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /*background-color: rgb(177, 9, 255); */
+    /*background-image: url(https://cdn.pixabay.com/photo/2023/02/07/13/55/forest-7774205_1280.jpg);*/
+    background-color: #3485d1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    animation: mudarCores 5s infinite;
+}
+
+img{
+    height: 300px;
+    display: block;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+
+main{
+    border: rgb(1, 1, 3) 3px solid;
+    width: 70%;
+    margin: auto;
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    
+    
+}
+
+p{
+    font-family: sans-serif;
+    color: #3485d1;
+    font-weight: 540;
+    /*font-style: oblique; */
+    font-stretch: extra-condensed;
+    line-height: 21px;
+    margin: auto;
+    /*letter-spacing: 1px;*/
+    /*word-spacing: 1px;*/
+    text-align: justify;
+    text-decoration: none;
+    text-transform: lowercase;
+    text-indent: 30px;
+    text-shadow: 5px 5px 20px #3485d1 ;
+}
+
+h1{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-style: oblique;
+    text-align: center;
+    font-size: 40px;
+    color: #0065c3;
+    margin: auto;
+    line-height: 80px;
+
+}
+
+footer{
+    text-align: center;
+    color: #0065c3;
+    margin: 20px;
+    text-transform: capitalize;
+    text-shadow: 5px 5px 10px #3485d1;
+
+
+}
+
+@keyframes mudarCores{
+
+    25%{
+        background-color: #0065c3;
+    }
+    
+    25% {
+        background-color: #3485d1;
+    }
+
+    25% {
+        background-color: aliceblue;
+    }
+    25%{
+        background-color: antiquewhite;
+    }
+    25%{
+        background-color: aqua;
+    }
+    25%{
+        background-color: aquamarine;
+    }
+    25%{
+        background-color: azure;
+    }
+}
